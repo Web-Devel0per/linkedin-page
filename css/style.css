@@ -1,0 +1,166 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #9e9e9e17!important;
+}
+.font-weight-bold{
+  padding-top: 10px;
+}
+.padd{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+svg{
+  display: flex;
+}
+nav .active {
+  border-bottom: 3px solid white;
+}
+
+.bg-background {
+  background-image: linear-gradient(#1ccdf9, #15bced, #0ca7df);
+}
+
+.profile-menu {
+  display: flex;
+}
+
+.profile-menu-link {
+  padding: 20px 16px;
+  color: #5c5e6e;
+  transition: 0.3s;
+}
+
+section .nav-link {
+  color: #77787b;
+}
+section .nav-link.active {
+  color: #2b68a0;
+  border-bottom: 3px solid #2b68a0;
+}
+
+.font-medium {
+  font-size: 14px;
+}
+.font-small {
+  font-size: 12px;
+}
+.font-smaller {
+  font-size: 11px;
+}
+.blue {
+  color: #2b68a0;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+.icon{
+  width: 15px;
+  height:15px;
+}
+.iconify {
+  width: 20px;
+  height:20px;
+}
+
+.grey{
+  color:#77787B;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.cover {
+  background: url(../img/background.png);
+  background-size: cover;
+}
+.profile {
+  transform: translateY(50px);
+}
+.navbar ul.navbar-nav li a span {
+  display: block;
+}
+
+.topbar-divider {
+  border-right: 1px solid #e3e6f0;
+}
+.retro-card {
+  margin-bottom: 10px;
+}
+.retro-card .card-body{
+  text-align: center;
+  position: relative;
+}
+.retro-card .card-text{
+  text-align: left;
+}
+.retro-card .card-title{
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 23px;
+}
+.retro-card .card-date{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.edit-portfolio{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+.edit-portfolio i{
+  color: #2B68A0;
+  font-size: 14px;
+}
+.top-gallery{
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-gallery img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.top-gallery img:not(:last-child){
+  margin-right: 5px;
+}
+.bottom-gallery{
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-gallery--leftside img{
+  width: 100%;
+  margin-right: 5px;
+}
+.bottom-gallery--leftside img:not(:last-child){
+  margin-bottom: 5px;
+}
+.bottom-gallery--leftside{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 5px;
+}
+.bottom-gallery--rightside{
+  width: 67%;
+}
+.bottom-gallery--rightside img{
+  width: 100%;
+}
+@media (max-width: 992px) {  
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: ease-in 0.5s linear;
+}
+}
